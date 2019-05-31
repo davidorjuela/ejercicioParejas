@@ -1,0 +1,39 @@
+body{
+background: darkcyan;
+display: flex;
+}
+img{
+    width: 70%;
+}
+p{
+    font: italic;
+    font-size:16px;
+    }
+ul{
+    background: rgb(66, 162, 218);
+    border-radius: 5px;
+}
+li{
+}
+.derecha{ 
+    width: 70%;
+    order: 2;
+    border-radius: 5px;
+    color:rgb(30, 22, 31);
+    margin: 30px;
+    display: block;
+}
+.derecha *{
+    margin-left: 6px;
+    
+}
+.izquierda{
+    order:1;
+    border-radius:5px;
+    color:rgb(30, 22, 31);
+    margin: 30px;
+}
+.izquierda *{
+    margin-left: auto;
+    margin-right: auto;
+}
